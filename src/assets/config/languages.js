@@ -1,23 +1,23 @@
 export default [
   {
-    title: 'French',
-    level: 'Native speaker',
+    title: 'Languages.fr',
+    level: 'Languages.levels.native',
     code: 'fr',
     text: '',
   }, {
-    title: 'English',
-    level: 'Native speaker',
+    title: 'Languages.en',
+    level: 'Languages.levels.native',
     code: 'en',
-    text: '- CAE: A<br/>- TOEIC: 990 pts',
+    text: '- CAE: A<br/>- TOEIC: 990',
   }, {
-    title: 'Danish',
-    level: 'Intermediate level',
+    title: 'Languages.dk',
+    level: 'Languages.levels.professional',
     code: 'dk',
-    text: '- Almenprøve lv 3',
+    text: '- Almenprøve 3',
   }, {
-    title: 'German',
-    level: 'Native speaker',
+    title: 'Languages.de',
+    level: 'Languages.levels.intermediate',
     code: 'de',
-    text: '13 years of class',
+    text: '',
   },
 ];

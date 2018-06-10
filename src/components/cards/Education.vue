@@ -1,17 +1,17 @@
 <template>
     <dl class="card">
         <dt class="u-visually-hidden">Education level</dt>
-        <dd class="h3" v-text="education.level"/>
+        <dd class="h3">{{$t(education.level)}}</dd>
         <dt class="u-visually-hidden">Institution</dt>
-        <dd class="h4" v-text="education.institution"/>
+        <dd class="h4">{{$t(education.institution)}}</dd>
         <dt class="u-visually-hidden">Subject</dt>
-        <dd v-text="education.subject"/>
+        <dd>{{$t(education.subject)}}</dd>
         <dt class="u-visually-hidden">Date</dt>
         <dd class="card__date">
-          <time datetime="2012-07-01" v-text="education.date"/>
+          <time>{{$t(education.date)}}</time>
         </dd>
         <dt class="u-visually-hidden">Result</dt>
-        <dd v-text="education.result"/>
+        <dd>{{$t(education.text)}}</dd>
     </dl>
 </template>
 <script>
@@ -25,11 +25,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-  @media print {
-    .card {
-      background-color: red!important;
-    }
-  }
-</style>

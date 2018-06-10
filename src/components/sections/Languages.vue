@@ -1,7 +1,7 @@
 <template>
     <aside class="languages">
         <section class="section" id="languages">
-            <h2>Languages</h2>
+            <h2>{{ $t('Languages.title')}}</h2>
             <ul class="languages-grid">
               <Language v-for="language in languages" :lang="language" :key="language.title"/>
             </ul>

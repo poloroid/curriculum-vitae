@@ -1,37 +1,37 @@
 export default [{
   company: 'Excilys',
-  title: 'Analyste développeur',
-  dateRange: 'Jan. 2015 - aujourd\'hui',
+  title: 'Experience.Excilys.jobTitle',
+  dateRange: 'Jan. 2015 - Present',
   elements: [
     {
-      title: 'Mars 2018 - Aujourd\'hui: CASDEN',
-      text: 'Loans simulation & management',
+      title: 'Experience.Excilys.CASDEN.title',
+      text: 'Experience.Excilys.CASDEN.text',
       tags: ['Java 8', 'RabbitMQ', 'VueJS', 'LESS', 'PostgreSQL', 'MySQL', 'Spring', 'Jenkins', 'Git', 'SVN', 'Docker'],
     },
     {
-      title: 'Septembre 2015 - Mars 2018: La Réunion Aérienne et Spatiale',
-      text: 'Développement d\'application de souscription d\'assurance aérospatiale et gestion des flux comptables multi-agence d\'assurance / coassurance / réassurance ',
+      title: 'Experience.Excilys.RAES.title',
+      text: 'Experience.Excilys.RAES.text',
       tags: ['Java 7', 'Oracle', 'Jenkins', 'Hibernate', 'Git', 'Spring'],
     },
     {
-      title: 'Janvier 2015: Formation',
-      text: '6 mois de formation intensive sur les nouvelles technologies. ',
-      tags: ['Java', 'JEE', 'Spring', 'Hibernate', 'iOS', 'Docker', 'Angular', 'Git'],
+      title: 'Experience.Excilys.Formation.title',
+      text: 'Experience.Excilys.Formation.text',
+      tags: ['Java', 'JEE', 'Spring', 'Hibernate', 'iOS', 'Docker', 'Angular', 'Git', 'Android'],
     },
   ],
 }, {
   company: 'FLSmidth',
-  title: 'trainee',
-  dateRange: 'Été 2012 & 2013',
+  title: 'Experience.FLS.title',
+  dateRange: 'Experience.FLS.date',
   elements: [
     {
-      title: 'Technical drawing of electrical documentation of standard hardware solutions(AutoCAD 2D)',
+      title: 'Experience.FLS.experiences.0',
     },
     {
-      title: 'Translation of PLC(Programmable Logic Controller) coding',
+      title: 'Experience.FLS.experiences.1',
     },
     {
-      title: 'Updating documentation databases via Microsoft Visual SafeSource',
+      title: 'Experience.FLS.experiences.2',
     },
   ],
 }];
