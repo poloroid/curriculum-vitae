@@ -10,7 +10,7 @@
 </template>
 <script>
 import Language from '@/components/cards/Language';
-import languages from '@/assets/languages';
+import languages from '@/assets/config/languages';
 
 export default {
   name: 'Languages',

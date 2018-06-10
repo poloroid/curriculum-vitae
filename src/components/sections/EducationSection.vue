@@ -8,7 +8,7 @@
 </template>
 <script>
 import Education from '@/components/cards/Education';
-import educationList from '@/assets/education';
+import educationList from '@/assets/config/education';
 
 export default {
   name: 'EducationSection',

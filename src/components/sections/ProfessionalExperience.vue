@@ -10,7 +10,7 @@
 </template>
 <script>
 import Experience from '@/components/cards/Experience';
-import experiences from '@/assets/experiences';
+import experiences from '@/assets/config/experiences';
 
 export default {
   name: 'ProfessionalExperience',
