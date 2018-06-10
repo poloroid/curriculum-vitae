@@ -1,7 +1,7 @@
 <template>
     <main class="main">
         <section class="section" id="experience">
-            <h2>Experience</h2>
+            <h2>{{$t('Experience.title')}}</h2>
           <Experience v-for="experience in experiences"
                       :experience="experience"
                       :key="experience.company"/>
@@ -10,7 +10,7 @@
 </template>
 <script>
 import Experience from '@/components/cards/Experience';
-import experiences from '@/assets/experiences';
+import experiences from '@/assets/config/experiences';
 
 export default {
   name: 'ProfessionalExperience',

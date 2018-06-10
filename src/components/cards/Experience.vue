@@ -3,17 +3,17 @@
         <dt class="u-visually-hidden">Company:</dt>
         <dd class="h3" v-text="experience.company">
         <dt class="u-visually-hidden">Role:</dt>
-        <dd class="h4" v-text="experience.title"/>
+        <dd class="h4">{{$t(experience.title)}}</dd>
         <dt class="u-visually-hidden">Period:</dt>
         <dd class="card__date">
-            <span v-text="experience.dateRange"/>
+          <span>{{$t(experience.dateRange)}}</span>
         </dd>
         <dt class="u-visually-hidden">Details:</dt>
         <dd class="card__details">
           <ul>
             <li v-for="element in experience.elements" :key="element.title">
-              <span class="h5" v-text="element.title"/>
-              <div  v-html="element.text"/>
+              <span class="h5">{{$t(element.title)}}</span>
+              <div>{{$t(element.text)}}</div>
               <Label v-if="element.tags" v-for="tag in element.tags" :text="tag" :key="tag"/>
             </li>
           </ul>

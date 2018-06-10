@@ -10,7 +10,7 @@
 </template>
 <script>
 import TechItem from '@/components/cards/TechItem';
-import techList from '@/assets/technologies';
+import techList from '@/assets/config/technologies';
 
 export default {
   name: 'Technologies',

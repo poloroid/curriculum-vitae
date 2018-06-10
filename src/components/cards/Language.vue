@@ -1,8 +1,8 @@
 <template>
     <li :class="`card ${lang.code}`">
-        <h3 v-text="lang.title"/>
-        <h4 v-text="lang.level"/>
-        <p v-html="lang.text"/>
+      <h3>{{$t(lang.title)}}</h3>
+      <h4>{{$t(lang.level)}}</h4>
+      <p v-html="lang.text"/>
     </li>
 </template>
 <script>
