@@ -21,12 +21,13 @@ export default {
     font-size: 0.75rem;
     line-height: 2;
     border-radius: 4px;
-    display: inline;
+    display: inline-block;
     font-weight: bold;
     padding: 3px 7px;
     text-align: center;
     vertical-align: baseline;
     white-space: nowrap;
     margin-right: .5em;
+    margin-bottom: .5em;
   }
 </style>
