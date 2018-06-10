@@ -1,0 +1,24 @@
+<template>
+    <main class="main">
+        <section class="section" id="experience">
+            <h2>Experience</h2>
+          <Experience v-for="experience in experiences"
+                      :experience="experience"
+                      :key="experience.company"/>
+        </section>
+    </main>
+</template>
+<script>
+import Experience from '@/components/cards/Experience';
+import experiences from '@/assets/experiences';
+
+export default {
+  name: 'ProfessionalExperience',
+  components: { Experience },
+  data() {
+    return {
+      experiences,
+    };
+  },
+};
+</script>
