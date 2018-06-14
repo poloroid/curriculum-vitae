@@ -14,9 +14,9 @@ const store = new Vuex.Store();
 Vue.use(vuexI18n.plugin, store);
 
 Vue.i18n.add('en', translationsEn);
-Vue.i18n.add('de', translationsFr);
+Vue.i18n.add('fr', translationsFr);
 
-Vue.i18n.set('en');
+Vue.i18n.set('fr');
 
 /* eslint-disable no-new */
 new Vue({

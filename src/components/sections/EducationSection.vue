@@ -1,6 +1,6 @@
 <template>
     <section class="education section">
-        <h2>{{$t('Education.title')}}}</h2>
+        <h2>{{$t('Education.title')}}</h2>
         <div class="schools-grid">
           <Education v-for="x in educationList" :education="x" :key="x.level"/>
         </div>

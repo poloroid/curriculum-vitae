@@ -19,6 +19,12 @@
                     <span>LinkedIn</span>
                 </a>
             </li>
+            <li>
+                <a class="footer__link" href="https://stackoverflow.com/users/6283258/paul-rdt">
+                  <img class="icon icon--bottom" src="../../assets/icons/stackoverflow.svg"/>
+                    <span>Stack Overflow</span>
+                </a>
+            </li>
         </ul>
     </footer>
 </template>
@@ -27,4 +33,10 @@ export default {
   name: 'Links',
 };
 </script>
-
+<style lang="scss" scoped>
+  @media print {
+    .footer {
+      display: none;
+    }
+  }
+</style>

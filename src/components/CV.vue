@@ -251,6 +251,9 @@ export default {
       display: flex;
       align-items: center;
       line-height: 1.2;
+      @media print {
+        line-height: .8;
+      }
     }
   }
 
@@ -258,11 +261,17 @@ export default {
     & > * + * {
       margin-top: 1em;
     }
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 1em;
-        & > * {
-          margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    & > * {
+      margin-top: 0;
+    }
+    @media (min-width: 40em) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    @media (max-width: 40em) {
+      grid-template-columns: 1fr 1fr;
     }
   }
 

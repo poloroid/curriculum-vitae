@@ -13,7 +13,7 @@
           <ul>
             <li v-for="element in experience.elements" :key="element.title">
               <span class="h5">{{$t(element.title)}}</span>
-              <div>{{$t(element.text)}}</div>
+              <div class="newline-sentences">{{$t(element.text)}}</div>
               <Label v-if="element.tags" v-for="tag in element.tags" :text="tag" :key="tag"/>
             </li>
           </ul>
@@ -49,5 +49,9 @@ export default {
       margin: 0 .5rem 0 -1.4rem;
       color: #55ba86;
     }
+  }
+
+  .newline-sentences {
+    white-space: pre-line;
   }
 </style>

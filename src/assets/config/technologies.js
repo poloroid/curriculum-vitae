@@ -34,4 +34,7 @@ export default [{
 }, {
   text: 'RabbitMQ',
   icon: 'rabbitmq',
+}, {
+  text: 'Scrum',
+  icon: 'scrum',
 }];
